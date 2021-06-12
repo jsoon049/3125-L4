@@ -56,6 +56,16 @@
 
 @media screen and (min-width: 1024px) {
   .service-card {
+    height: 275px;
+  }
+  .service-price {
+    left: 4%;
+  }
+}
+
+
+@media screen and (min-width: 1224px) {
+  .service-card {
     height: 250px;
   }
   .service-price {

@@ -10,8 +10,8 @@ function App() {
   return (
     <div className="appContainer" id="appContainer">
       <Service />
-      <About />
       <Booking />
+      <About />
       <Contact />
     </div>
   );
