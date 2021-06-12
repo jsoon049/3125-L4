@@ -1,0 +1,53 @@
+.service-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 80%;
+  margin: auto;
+}
+
+.service-ul {
+  border: 1px solid black;
+  padding: 0;
+  margin: 10px;
+}
+
+.service-content {
+  margin: 0 10px;
+  position: relative;
+}
+
+.service-card {
+  position: relative;
+  height: 250px;
+}
+
+.service-price {
+  font-weight: 600;
+  position: absolute;
+  bottom: 1%;
+  left: 2%;
+}
+
+.service-text {
+  font-size: 12px;
+}
+
+.service-name {
+  margin: 0;
+  padding: 20px 0;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+@media only screen and (min-device-width: 768px) {
+  .service-wrapper {
+    grid-template-columns: 1fr 1fr; /* 2 columns */
+  }
+  .service-text {
+    font-size: 1em;
+  }
+  .service-price {
+    font-size: 1.15em;
+  }
+}
