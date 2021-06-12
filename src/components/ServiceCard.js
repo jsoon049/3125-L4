@@ -9,7 +9,7 @@ export const ServiceCard = ({ service }) => {
       <div className="service-content">
         <p className="service-text service-description">{service.description}</p>
       </div>
-      <p className="service-text service-price">{"Price: $" + service.price}</p>
+      <p className="service-text service-price">{"Price: $" + service.price + "/session"}</p>
     </div>
   );
 };

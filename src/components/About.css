@@ -1,31 +1,26 @@
-.service-wrapper {
+.about-wrapper {
   display: grid;
   grid-template-columns: 1fr;
 }
 
-.service-ul {
+.about-ul {
   border: 1px solid black;
   padding: 0;
   margin: 10px;
 }
 
-.service-content {
+.about-content {
   margin: 0 15px;
   position: relative;
+  text-align: center;
 }
 
-.service-price {
-  font-weight: 700;
-  position: absolute;
-  bottom: 1%;
-  left: 4%;
-}
-
-.service-text {
+.about-text {
   font-size: 1em;
+  text-align: left;
 }
 
-.service-name {
+.about-name {
   margin: 0;
   padding: 20px 0;
   text-align: center;
@@ -33,32 +28,29 @@
   color: white;
 }
 
-.service-card {
+.about-card {
   position: relative;
-  height: 250px;
+  height: auto;
+}
+
+.about-img {
+  width: 200px;
+  height: 225px;
+  margin-top: 15px;
 }
 
 @media screen and (min-width: 700px) {
-  .service-wrapper {
+  .about-wrapper {
     grid-template-columns: 1fr 1fr; /* 2 columns */
   }
-  .service-text {
+  .about-text {
     font-size: 1em;
-  }
-  .service-price {
-    font-size: 1.15em;
-    left: 6%;
-  }
-  .service-card {
-    height: 350px;
+    margin-left: 20px;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .service-card {
-    height: 250px;
-  }
-  .service-price {
-    left: 4%;
+  .about-wrapper {
+    grid-template-columns: 1fr 1fr 1fr; /* 3 columns */
   }
 }
