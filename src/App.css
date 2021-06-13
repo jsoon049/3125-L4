@@ -12,9 +12,17 @@ h1 {
 }
 
 .btn {
-  padding: 5px 15px;
+  padding: 10px 15px;
   font-size: 1em;
   cursor: pointer;
+}
+
+.submit {
+  margin-right: 15px;
+}
+
+.required {
+  color: red;
 }
 
 .about-wrapper, .booking-wrapper, .contact-wrapper, .service-wrapper {
@@ -34,7 +42,7 @@ h1 {
   padding: 20px 0;
 }
 
-@media screen and (max-width: 525px) {
+@media screen and (max-width: 535px) {
   html {
     font-size: 0.8em;
   }

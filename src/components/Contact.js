@@ -13,27 +13,27 @@ export const Contact = () => {
       <div className="contact-wrapper">
         <form method="post" action="/" className="form-wrapper">
           <div className="question-wrapper">
-            <label className="form-label">Name</label>
+            <label className="form-label">Name <strong className="required"> *</strong></label>
             <input
               type="text"
-              name="first name"
+              name="name"
               size="50"
               className="contact-input"
               placeholder="John Doe"
             />
           </div>
           <div className="question-wrapper">
-            <label className="form-label">Email</label>
+            <label className="form-label">Email <strong className="required"> *</strong></label>
             <input
               type="email"
               name="email"
               size="50"
               className="contact-input"
-              placeholder="name@example.com"
+              placeholder="email@example.com"
             />
           </div>
           <div className="question-wrapper">
-            <label className="form-label">Phone Number</label>
+            <label className="form-label">Phone Number <strong className="required"> *</strong></label>
             <input
               type="tel"
               name="phone"
@@ -43,15 +43,15 @@ export const Contact = () => {
             />
           </div>
           <div className="question-wrapper">
-            <label className="form-label">Preferred Contact Method</label>
+            <label className="form-label">Preferred Contact Method <strong className="required"> *</strong></label>
             <label htmlFor="email" className="radio-label">Email</label>
             <input type="radio" id="emailradio" name="contactmethod" value="email" className="contact-radio"/>
             <label htmlFor="phone" className="radio-label">Phone Number</label>
             <input type="radio" id="phoneradio" name="contactmethod" value="phone" className="contact-radio"/>
           </div>
           <div className="question-wrapper">
-            <label className="form-label">Question</label>
-            <textarea rows="4" cols="25" className="contact-input"></textarea>
+            <label className="form-label">Question <strong className="required"> *</strong></label>
+            <textarea rows="4" cols="25" className="contact-input" placeholder="Type question here"></textarea>
           </div>
           <div className="button-wrapper">
             <input
