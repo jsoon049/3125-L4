@@ -1,0 +1,31 @@
+.header {
+    background-color: #88b444;
+    padding: 10px 25px;
+}
+
+.navbar {
+    width: 81%;
+    margin: auto;
+}
+
+.navbar-ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.navbar-li {
+    display: inline-block;
+    padding: 5px 0;
+}
+
+.links {
+    margin-right: 15px;
+    text-decoration: none;
+    font-size: 1.25em;
+}
+
+.links:hover {
+    opacity: 0.3;
+}
+

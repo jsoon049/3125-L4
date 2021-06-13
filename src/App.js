@@ -1,14 +1,17 @@
 import React from "react";
-// import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { About } from "./components/About";
 import { Booking } from "./components/Booking";
 import { Contact } from "./components/Contact";
 import { Service } from "./components/Service";
+import { Header } from "./components/Header"
+import { Brand } from "./components/Brand"
 import "./App.css";
 
 function App() {
   return (
     <div className="appContainer" id="appContainer">
+      <Brand />
+      <Header />
       <Service />
       <Booking />
       <About />

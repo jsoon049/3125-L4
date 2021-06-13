@@ -3,7 +3,7 @@ import "./Booking.css";
 
 export const Booking = () => {
   return (
-    <div className="booking">
+    <div className="booking" id="booking">
       <h1>Book an Appointment</h1>
       <div className="booking-wrapper">
         <form method="post" action="" className="booking-form-wrapper">

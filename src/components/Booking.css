@@ -32,8 +32,9 @@
 }
 
 .date-time {
-  -webkit-appearance: none;
-  -moz-appearance: none;
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  min-height: 1em;
 }
 
 @media screen and (min-width: 535px) {
