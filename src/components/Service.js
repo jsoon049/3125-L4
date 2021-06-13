@@ -38,7 +38,7 @@ export const Service = () => {
       name: "Custom Orthotics",
       price: 3.67,
       description:
-        "Custom Orthotics are custom shoe insoles tailored to a person’s specific needs, dysfunctions, or activity-specific requirements. They are used to reduce force on weight bearing joints; to correct for joint mal-alignment issues; or to improve support and comfort when standing, walking or running.",
+        "Custom Orthotics are custom shoe insoles tailored to a person’s specific needs, dysfunctions, or activity-specific requirements. Some uses include: reducing force on weight bearing joints and improving support and comfort when standing, walking or running.",
     },
   ];
 

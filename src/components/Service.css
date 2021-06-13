@@ -18,7 +18,7 @@
   font-weight: 700;
   position: absolute;
   bottom: 1%;
-  left: 4%;
+  left: 3%;
 }
 
 .service-text {
@@ -47,7 +47,7 @@
   }
   .service-price {
     font-size: 1.15em;
-    left: 6%;
+    left: 4%;
   }
   .service-card {
     height: 350px;
@@ -56,19 +56,9 @@
 
 @media screen and (min-width: 1024px) {
   .service-card {
-    height: 275px;
+    height: 260px;
   }
   .service-price {
-    left: 4%;
-  }
-}
-
-
-@media screen and (min-width: 1224px) {
-  .service-card {
-    height: 250px;
-  }
-  .service-price {
-    left: 4%;
+    left: 3%;
   }
 }

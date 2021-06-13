@@ -31,6 +31,11 @@
   margin-right: 0;
 }
 
+.date-time {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
 @media screen and (min-width: 535px) {
   .booking-outer {
     display: flex;

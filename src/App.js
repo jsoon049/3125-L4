@@ -13,6 +13,10 @@ function App() {
       <Booking />
       <About />
       <Contact />
+      <div className="footer">
+        <p className="footer-text footer-top">Website designed by Casper the Friendly Ghost</p>
+        <p className="footer-text footer-bottom">Medical content found from </p>
+      </div>
     </div>
   );
 }

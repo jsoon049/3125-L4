@@ -3,6 +3,18 @@ h1 {
   text-align: center;
   /* border-bottom: 1px solid black; */
 }
+.footer {
+  background-color: navy;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.footer-text {
+  padding-bottom: 5px;
+  text-align: center;
+  margin: 0;
+  color: white;
+}
 
 .instructions {
   text-align: center;

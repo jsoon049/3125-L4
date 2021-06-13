@@ -91,7 +91,7 @@ export const Booking = () => {
                 type="date"
                 name="date"
                 size="50"
-                className="booking-input"
+                className="booking-input date-time"
                 placeholder="yyyy-mm-dd"
                 required
               />
@@ -105,7 +105,7 @@ export const Booking = () => {
                 type="time"
                 name="time"
                 size="50"
-                className="booking-input"
+                className="booking-input date-time"
                 placeholder="hh-mm"
                 required
               />
