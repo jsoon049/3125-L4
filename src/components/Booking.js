@@ -6,7 +6,7 @@ export const Booking = () => {
     <div className="booking" id="booking">
       <h1><span>Book an Appointment</span></h1>
       <div className="booking-wrapper">
-        <form method="post" action="" className="booking-form-wrapper">
+        <form className="booking-form-wrapper">
           <div className="booking-outer">
             <div className="booking-inner">
               <label className="booking-form-label">
@@ -136,10 +136,9 @@ export const Booking = () => {
           </div>
           <div className="button-wrapper">
             <input
-              type="button"
+              type="submit"
               value="Submit"
               className="btn submit"
-              //   onClick={handleSubmit}
             />
             <input type="reset" value="Clear" className="btn" />
           </div>
