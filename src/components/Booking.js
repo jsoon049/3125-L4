@@ -4,13 +4,13 @@ import "./Booking.css";
 export const Booking = () => {
   return (
     <div className="booking" id="booking">
-      <h1>Book an Appointment</h1>
+      <h1><span>Book an Appointment</span></h1>
       <div className="booking-wrapper">
         <form method="post" action="" className="booking-form-wrapper">
           <div className="booking-outer">
             <div className="booking-inner">
               <label className="booking-form-label">
-                <strong>First Name</strong>
+                First Name
                 <strong className="required"> *</strong>
               </label>
               <input
@@ -24,7 +24,7 @@ export const Booking = () => {
             </div>
             <div className="booking-inner">
               <label className="booking-form-label">
-                <strong>Last Name</strong>
+                Last Name
                 <strong className="required"> *</strong>
               </label>
               <input
@@ -38,7 +38,7 @@ export const Booking = () => {
             </div>
             <div className="booking-inner last">
               <label className="booking-form-label">
-                <strong>Age</strong>
+                Age
                 <strong className="required"> *</strong>
               </label>
               <input
@@ -54,7 +54,7 @@ export const Booking = () => {
           <div className="booking-outer">
             <div className="booking-inner">
               <label className="booking-form-label">
-                <strong>Email</strong>
+                Email
                 <strong className="required"> *</strong>
               </label>
               <input
@@ -68,7 +68,7 @@ export const Booking = () => {
             </div>
             <div className="booking-inner last">
               <label className="booking-form-label">
-                <strong>Phone Number</strong>
+                Phone Number
                 <strong className="required"> *</strong>
               </label>
               <input
@@ -84,7 +84,7 @@ export const Booking = () => {
           <div className="booking-outer">
             <div className="booking-inner">
               <label className="booking-form-label">
-                <strong>Date</strong>
+                Date
                 <strong className="required"> *</strong>
               </label>
               <input
@@ -98,7 +98,7 @@ export const Booking = () => {
             </div>
             <div className="booking-inner last">
               <label className="booking-form-label">
-                <strong>Time</strong>
+               Time
                 <strong className="required"> *</strong>
               </label>
               <input
@@ -113,7 +113,7 @@ export const Booking = () => {
           </div>
           <div className="services-drop">
             <label className="booking-form-label">
-              <strong>Service</strong>
+              Service
               <strong className="required"> *</strong>
             </label>
             <select
@@ -131,7 +131,7 @@ export const Booking = () => {
             </select>
           </div>
           <div className="services-drop">
-            <label className="form-label">Any Additional Info We Should Know</label>
+            <label className="booking-form-label">Any Additional Info We Should Know</label>
             <textarea rows="4" cols="25" className="contact-input" placeholder="Type here"></textarea>
           </div>
           <div className="button-wrapper">

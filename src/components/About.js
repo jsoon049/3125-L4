@@ -29,7 +29,7 @@ export const About = () => {
 
   return (
     <div className="about" id="about">
-      <h1>Meet the Team</h1>
+      <h1><span>Meet the Team</span></h1>
       <div className="about-wrapper">
         {team.map((item, i) => (
           <ul key={i} className="about-ul">

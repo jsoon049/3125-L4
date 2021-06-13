@@ -1,7 +1,11 @@
 h1 {
-  margin-top: 0;
+  margin-top: 10px;
+  margin-bottom: 25px;
   text-align: center;
-  /* border-bottom: 1px solid black; */
+}
+
+h2 {
+  font-weight: 500;
 }
 
 .instructions {
@@ -31,11 +35,11 @@ h1 {
 }
 
 .service, .about {
-  background-color: lightcoral;
+  background-color: #d2d6e2;
 }
 
 .booking, .contact {
-  background-color: lightblue;
+  background-color: #e4e6ee;
 }
 
 .about, .booking, .contact, .service {

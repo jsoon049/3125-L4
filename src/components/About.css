@@ -24,8 +24,9 @@
   margin: 0;
   padding: 20px 0;
   text-align: center;
-  background-color: black;
+  background-color: #415385;
   color: white;
+  font-weight: 400;
 }
 
 .about-card {

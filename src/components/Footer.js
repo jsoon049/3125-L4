@@ -8,7 +8,7 @@ export const Footer = () => {
         Website designed by Casper the Friendly Ghost
       </p>
       <p className="footer-text footer-bottom">
-        Services and logo taken from {" "}
+        Service content and logo taken from {" "}
         <a href="https://www.merivalechiro.com" className="footer-link">
           Merival Chiropractor
         </a>
