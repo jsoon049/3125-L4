@@ -4,7 +4,7 @@ import "./Header.css";
 export const Header = () => {
   return (
     <div className="header">
-      <div className= "navbar">
+      <div className='navbar'>
         <ul className="navbar-ul">
           <li className="navbar-li">
             <a href="/3125-L4/#service" className="links">
@@ -22,7 +22,7 @@ export const Header = () => {
             </a>
           </li>
           <li className="navbar-li">
-            <a href="/3125-L4/#contact" className="links">
+            <a href="/3125-L4/#contact" className="links last-link">
               Contact Us
             </a>
           </li>

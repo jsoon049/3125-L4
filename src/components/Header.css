@@ -1,5 +1,4 @@
 .header {
-    background-color: #88b444;
     padding: 10px 25px;
 }
 
@@ -12,6 +11,7 @@
     list-style: none;
     padding-left: 0;
     margin: 0;
+    text-align: center;
 }
 
 .navbar-li {
@@ -22,10 +22,41 @@
 .links {
     margin-right: 15px;
     text-decoration: none;
-    font-size: 1.25em;
+    font-size: 1em;
+    font-weight: 500;
+    color: white;
+}
+
+.last-link {
+    margin-right: 0;
 }
 
 .links:hover {
-    opacity: 0.3;
+    opacity: 0.5;
+}
+
+@media screen and (min-width: 535px) {
+    .header {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+}
+
+@media screen and (min-width: 635px) {
+    .header {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+    .links {
+        font-size: 1.25em;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .navbar-ul {
+        text-align: left;
+    }
 }
 

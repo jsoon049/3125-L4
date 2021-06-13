@@ -3,8 +3,9 @@ import { About } from "./components/About";
 import { Booking } from "./components/Booking";
 import { Contact } from "./components/Contact";
 import { Service } from "./components/Service";
-import { Header } from "./components/Header"
-import { Brand } from "./components/Brand"
+import { Header } from "./components/Header";
+import { Brand } from "./components/Brand";
+import { Footer } from "./components/Footer";
 import "./App.css";
 
 function App() {
@@ -16,10 +17,7 @@ function App() {
       <Booking />
       <About />
       <Contact />
-      <div className="footer">
-        <p className="footer-text footer-top">Website designed by Casper the Friendly Ghost</p>
-        <p className="footer-text footer-bottom">Medical content found from </p>
-      </div>
+      <Footer />
     </div>
   );
 }
